@@ -13,7 +13,7 @@ export default function Detail() {
           />
         </div>
         <div className="text-xl ml-16 w-[70%] mt-16">
-          Hey there! I'm Shiyuan and welcome to my cozy nest!
+          Hey there! I&#39m Shiyuan and welcome to my cozy nest!
           I am a student and software developer, hoping to use my power to make an impact to the world around me.<br/>
 
           <div className="group inline-block pb-0">

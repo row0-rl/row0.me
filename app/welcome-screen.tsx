@@ -19,7 +19,7 @@ export default function WelcomeScreen() {
         className="flex items-center py-6 opacity-0 select-none pl-10"
       >
         <span className="text-3xl">
-          I'm{" "}
+          I&#3\m{" "}
           <div className="group inline-block">
             <span className="font-bold animate-pulse cursor-pointer underline">
               Shiyuan Liu
