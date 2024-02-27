@@ -17,17 +17,65 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* color: rgb(var(--foreground-rgb)); */
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+  color: white;
+  background-color: rgb(21, 31, 55);
+  background-image: radial-gradient(circle, rgba(17, 24, 39, 0.5) 1px, transparent 1px),
+                    radial-gradient(circle, rgba(17, 24, 39, 0.5) 1px, transparent 1px);
+  background-position: 0 0, 5px 5px;
+  background-size: 10px 10px;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@font-face {
+  font-family: 'hermit';
+  src: url('/fonts/Hermit-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hermit';
+  src: url('/fonts/Hermit-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CustomFont';
+  src: url('/fonts/Hermit-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'hermit';
+  src: url('/fonts/Hermit-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'hermit';
+  src: url('/fonts/Hermit-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'hermit';
+  src: url('/fonts/Hermit-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
 }
