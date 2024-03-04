@@ -20,15 +20,15 @@ export default function WelcomeScreen() {
       >
         <span className="text-3xl">
           I&#39;m{" "}
-          <div className="group inline-block">
-            <span className="font-bold animate-pulse cursor-pointer underline">
+          <div className="inline-block">
+            <span className="font-bold animate-pulse">
               Shiyuan Liu
             </span>
-            <div className="relative opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:ease-in-out duration-300">
-              <div className="absolute text-base font-normal left-1/2 -translate-x-1/2 whitespace-nowrap px-5 py-3 shadow-lg border-dotted border-white/10 border-2 rounded-2xl bg-gray-600/60 select-text">
-                Pronounced as <b>shh-ewan leo</b>
-              </div>
-            </div>
+            {/*<div className="relative opacity-0 pointer-events-none group-hover:pointer-events-auto group-hover:opacity-100 group-hover:ease-in-out duration-300">*/}
+            {/*  <div className="absolute text-base font-normal left-1/2 -translate-x-1/2 whitespace-nowrap px-5 py-3 shadow-lg border-dotted border-white/10 border-2 rounded-2xl bg-gray-600/60 select-text">*/}
+            {/*    Pronounced as <b>shh-ewan leo</b>*/}
+            {/*  </div>*/}
+            {/*</div>*/}
           </div>
         </span>
         <span className="text-xl pl-3 italic">@Row0</span>
